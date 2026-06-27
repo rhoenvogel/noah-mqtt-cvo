@@ -62,7 +62,7 @@ func Get() Config {
 				ClientId:    getEnv("MQTT_CLIENT_ID", "noah-mqtt-2"),
 				Username:    getEnv("MQTT_USERNAME", ""),
 				Password:    getEnv("MQTT_PASSWORD", ""),
-				TopicPrefix: getEnv("MQTT_TOPIC_PREFIX", "noah2mqtt"),
+				TopicPrefix: getEnv("MQTT_TOPIC_PREFIX", "noah2mqtt-2"),
 			},
 			HomeAssistant: HomeAssistant{
 				TopicPrefix: getEnv("HOMEASSISTANT_TOPIC_PREFIX", "homeassistant"),
